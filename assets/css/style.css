@@ -17,6 +17,12 @@
 /* ----------------------------------------font-family */
 
 /* ----------------------------------------padding */
+.pt-12{
+    padding-top: 12px;
+}
+.pt-14{
+    padding-top: 14px;
+}    
 .pt-23{
     padding-top: 23px;
 }
@@ -41,6 +47,9 @@
 }
 /* ----------------------------------------gap */
 /* ----------------------------------------width */
+.max-w-443{
+    max-width: 443px;
+}
 .max-w-750{
     max-width: 750px;
 }
@@ -80,7 +89,7 @@
 
 
 .btn-1:hover {
-    background: linear-gradient(96.64deg, var(--orangered)  13.58%,  var(--orange) 86.99%);
+    
 } 
 .cursor-pointer{
     cursor: pointer;
@@ -113,8 +122,22 @@
     background-position: center;
     background-size: cover;
 }
+.line{
+    height: 1px;
+    display: block;
+    width: 44px;
+    
+    background-image: linear-gradient( var(--orange) , var(--orangered));
+}
 
-
+.gradient-text{
+    background: -webkit-linear-gradient( 180deg , var(--orangered) ,var(--orange )  );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.opacity-7{
+    opacity: 70%;
+}
 
 
 

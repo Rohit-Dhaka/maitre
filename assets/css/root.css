@@ -25,13 +25,17 @@
     --line-height-71: 71px;
 
     --white: white;
+    --orangered: #F14F09;
+    --orange: #FD9B2B;
  
 
 }
 
 .line-height-16{
     line-height: var(--line-height-16);
+    
 }
+
 .line-height-18{
     line-height: var(--line-height-18);
 }

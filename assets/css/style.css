@@ -34,6 +34,9 @@
     padding-top: 14px;
 }
 
+.pt-20{
+    padding-top: 20px;
+}
 .pt-23 {
     padding-top: 23px;
 }
@@ -47,6 +50,9 @@
 }
 .pt-121{
     padding-top: 121px;
+}
+.pt-217{
+    
 }
 .pb-43{
     padding-bottom: 43px;
@@ -136,6 +142,9 @@
 .slick-btn:hover svg path {
     fill: white;
 }
+.h-200{
+    height: 200px;
+}
 
 .duration-300 {
     transition: all 300ms linear !important;
@@ -143,7 +152,7 @@
 }
 
 .bg-hero {
-    background-image: url(../images/webp/hero.png);
+    background-image: url(../images/webp/bg-hero.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

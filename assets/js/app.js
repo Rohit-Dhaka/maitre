@@ -16,11 +16,11 @@ function mobileMenu() {
 
 
 // --------slider
-$('.responsive').slick({
+$('.Modules-slider').slick({
   prevArrow: ".pre-btn",
   nextArrow: ".next-btn",
   infinite: true,
-  dots: false,
+  dots: true,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,

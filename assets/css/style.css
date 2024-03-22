@@ -69,9 +69,15 @@
 .pt-121{
     padding-top: 121px;
 }
+.pt-142{
+    padding-top: 142px;
+}
 .pt-189{
     padding-top: 189px;
 
+}
+.pt-295{
+    padding-top: 295px;
 }
 .pb-147{
     padding-bottom: 147px !important;
@@ -98,6 +104,9 @@
 .mt-25{
     margin-top: 25px;
 }
+.mt-35{
+    margin-top: 35px;
+}
 .mt-76{
     margin-top: 76px;
 }
@@ -106,12 +115,18 @@
 .gap-12 {
     gap: 12px;
 }
+.gap-23{
+    gap: 23px;
+}
 
 .gap-29 {
     gap: 29px;
 }
 .gap-31{
     gap: 31px;
+}
+.gap-36{
+    gap: 36px;
 }
 .gap-46 {
     gap: 46px;
@@ -178,6 +193,24 @@
 }
 
 
+
+.pricing-card{
+    box-shadow: 0px 6px 12px 0px #0000000F;
+    border-radius: 10px;
+    max-width: 540px;
+
+}
+.gradient-heading{    
+    background-image: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%) !important;
+    padding: 23px 41px 23px;
+    /* border-top-right-radius: 10px; */
+
+}
+.card-content{
+    padding: 39px 42px 42px 41px;
+}
+
+
 .btn-1:hover {}
 
 .cursor-pointer {
@@ -220,6 +253,11 @@
     transition: all 300ms linear !important;
 
 }
+.gradient-box{
+    background-image: linear-gradient( 90deg ,var(--orange), var(--orangered));
+    border-radius: 10px;
+    padding: 41px 25px 40px 21px;
+}
 
 .bg-hero {
     background-image: url(../images/webp/bg-hero.png);
@@ -230,6 +268,9 @@
 .input-text{
     border-bottom: 1px solid black !important;
     outline: none;
+}
+.resize-none{
+    resize: none;
 }
 .line {
     height: 1px;
@@ -339,7 +380,7 @@ background-size: cover;
     margin: 0 auto;
     left: 0;
     transition: all 300ms linear;
-    background-color: var(--gray);
+    background-color: var(--white);
 }
 
 .underline:hover::after {
@@ -436,9 +477,10 @@ background-size: cover;
 @media (min-width:1200px) {}
 
 
-.box{
-    height: 400px;
-    width: 700px;
-    display:block;
-    background: red;
-}
+
+
+
+
+
+
+

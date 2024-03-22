@@ -26,6 +26,9 @@
     padding-top: 10px;
 }
 
+.pt-11{
+    padding-top: 11px;
+}
 .pt-12 {
     padding-top: 12px;
 }
@@ -210,7 +213,21 @@
     padding: 39px 42px 42px 41px;
 }
 
+.diamond-box{
+    width: 55px;
+    height: 55px;
+    padding: 15px 10px 11px;
+}
 
+.h-56{
+    height: 56px;
+    
+}
+.Ellipse446{
+    
+    right: 6px;
+    top: -39px;
+}
 .btn-1:hover {}
 
 .cursor-pointer {

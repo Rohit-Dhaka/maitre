@@ -45,11 +45,16 @@
 .pt-23 {
     padding-top: 23px;
 }
+.pt-29 {
+    padding-top: 29px;
+}
 
 .pt-30 {
     padding-top: 30px;
 }
-
+.pt-75{
+    padding-top: 75px;
+}
 .pt-119 {
     padding-top: 119px;
 }
@@ -62,6 +67,9 @@
 }
 .pt-217{
     padding-top: 217px;
+}
+.pb-15{
+    padding-bottom: 15px;
 }
 .pb-43{
     padding-bottom: 43px;
@@ -88,7 +96,9 @@
 .gap-29 {
     gap: 29px;
 }
-
+.gap-31{
+    gap: 31px;
+}
 .gap-46 {
     gap: 46px;
 }
@@ -97,6 +107,12 @@
 /* ----------------------------------------width */
 .max-w-443 {
     max-width: 443px;
+}
+.max-w-269{
+    max-width: 269px;
+}
+.max-w-525{
+    max-width: 525px;
 }
 
 .max-w-750 {
@@ -191,7 +207,10 @@
     background-position: center;
     background-size: cover;
 }
-
+.input-text{
+    border-bottom: 1px solid black !important;
+    outline: none;
+}
 .line {
     height: 1px;
     display: block;

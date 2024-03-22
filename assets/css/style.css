@@ -33,6 +33,9 @@
 .pt-14 {
     padding-top: 14px;
 }
+.pt-15{
+    padding-top: 15px;
+}
 .pt-17{
     padding-top: 17px;
 }
@@ -48,12 +51,17 @@
 .pt-29 {
     padding-top: 29px;
 }
-
+.pt-34{
+    padding-top: 34px;
+}
 .pt-30 {
     padding-top: 30px;
 }
 .pt-75{
     padding-top: 75px;
+}
+.pt-82{
+    padding-top: 82px;
 }
 .pt-119 {
     padding-top: 119px;
@@ -65,11 +73,17 @@
     padding-top: 189px;
 
 }
+.pb-147{
+    padding-bottom: 147px !important;
+}
 .pt-217{
     padding-top: 217px;
 }
 .pb-15{
     padding-bottom: 15px;
+}
+.pb-33{
+    padding-bottom: 33px;
 }
 .pb-43{
     padding-bottom: 43px;
@@ -102,9 +116,15 @@
 .gap-46 {
     gap: 46px;
 }
+.gap-51 {
+    gap: 51px;
+}
 
 /* ----------------------------------------gap */
 /* ----------------------------------------width */
+.max-w-375{
+    max-width: 375px;
+}
 .max-w-443 {
     max-width: 443px;
 }
@@ -234,6 +254,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+.bg-footer{
+    background-image: url(../images/webp/footer.png);
+    background-repeat: no-repeat;
+background-size: cover;
 }
 
 /* --------------------------------------card */

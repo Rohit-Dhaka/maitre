@@ -384,7 +384,12 @@ background-size: cover;
     right: 5%;
     top: 20%;
 }
-
+.vector1::after{
+    content: url(../images/svg/Vector1.svg);
+    position: absolute;
+    left: -11%;
+    bottom: -117%;
+}
 .Ellipse15 {
     right: 0;
     bottom: 0;

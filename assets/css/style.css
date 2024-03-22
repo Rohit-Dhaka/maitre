@@ -75,15 +75,16 @@
 .pt-142{
     padding-top: 142px;
 }
-.pt-189{
-    padding-top: 189px;
 
+.pt-147{
+    padding-top: 147px;
 }
-.pt-295{
-    padding-top: 295px;
-}
+
 .pb-147{
     padding-bottom: 147px !important;
+}
+.pb-148{
+    padding-bottom: 148px;
 }
 .pt-217{
     padding-top: 217px;
@@ -97,9 +98,20 @@
 .pb-43{
     padding-bottom: 43px;
 }
-
+.pt-94{
+    padding-top: 94px !important;
+}
+.pb-109{
+    padding-bottom: 109px;
+}
+.pt-108{
+    padding-top: 108px;
+}
 .pb-59 {
     padding-bottom: 59px;
+}
+.pb-95{
+    padding-bottom: 95px;
 }
 
 /* ----------------------------------------padding */
@@ -113,6 +125,7 @@
 .mt-76{
     margin-top: 76px;
 }
+
 /* ----------------------------------------margin */
 /* ----------------------------------------gap */
 .gap-12 {
@@ -159,6 +172,9 @@
 .max-w-971{
     max-width: 971px;
 }
+.max-w-1016{
+    max-width: 1016px;
+}
 /* ----------------------------------------width */
 /* ----------------------------------------btn */
 /* ----------------------------------------btn */
@@ -169,9 +185,6 @@
 
 
 
-.h-438{
-    height: 438px;
-}
 
 
 
@@ -248,18 +261,17 @@
     right: -5%;
 }
 
-.slick-btn:hover svg path {
-    fill: white;
-}
+
 .slider-box-1{
     padding: 34px 36px 0 0;
-    /* box-shadow: 0px 4px 66px 0px #0000000A; */
-    /* box-shadow: 0px 4px 66px 0px #0000000A; */
-    box-shadow: 0px 4px 66px 0px #0000000A;
-    max-width: 1016px;
-
+    border: 1px solid red;
+    
+    
+    /* box-shadow: 0px 4px 66px 0px #0000000A; */    
+    
     border-radius: 8px;
 }
+
 .h-200{
     height: 200px;
 }

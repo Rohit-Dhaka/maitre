@@ -1,13 +1,13 @@
 :root {
     --fs-sm: 12px;    
     --fs-md: 14px;
-    --fs-lg: 16px;
-    --fs-xl: 20px;
+    --fs-lg: 14px;
+    --fs-xl: 18px;
     --fs-2xl: 23px; 
-    --fs-3xl: 24px;
-    --fs-4xl: 40px;
-    --fs-5xl: 48px;
-    --fs-6xl: 61px;
+    --fs-3xl: 20px;
+    --fs-4xl: 32px;
+    --fs-5xl: 38px;
+    --fs-6xl: 48px;
     
 
 
@@ -22,11 +22,12 @@
     --line-height-36: 36px;
     --line-height-46: 46px;
     --line-height-56: 56px;
-    --line-height-71: 71px;
+    --line-height-71: 65px;
 
     --white: white;
     --orangered: #F14F09;
     --orange: #FD9B2B;
+    --black: black;
  
 
 }

@@ -66,26 +66,17 @@
 .pt-82{
     padding-top: 82px;
 }
-.pt-119 {
-    padding-top: 119px;
-}
-.pt-121{
-    padding-top: 121px;
-}
-.pt-142{
-    padding-top: 142px;
+.pt-60{
+    padding-top: 60px;
 }
 
-.pt-147{
-    padding-top: 147px;
-}
 
-.pb-147{
-    padding-bottom: 147px !important;
-}
-.pb-148{
-    padding-bottom: 148px;
-}
+
+
+
+
+
+
 .pt-217{
     padding-top: 217px;
 }
@@ -101,12 +92,9 @@
 .pt-94{
     padding-top: 94px !important;
 }
-.pb-109{
-    padding-bottom: 109px;
-}
-.pt-108{
-    padding-top: 108px;
-}
+
+
+
 .pb-59 {
     padding-bottom: 59px;
 }
@@ -141,9 +129,7 @@
 .gap-31{
     gap: 31px;
 }
-.gap-36{
-    gap: 36px;
-}
+
 .gap-46 {
     gap: 46px;
 }
@@ -156,15 +142,9 @@
 .max-w-375{
     max-width: 375px;
 }
-.max-w-443 {
-    max-width: 443px;
-}
-.max-w-269{
-    max-width: 269px;
-}
-.max-w-525{
-    max-width: 525px;
-}
+
+
+
 
 .max-w-750 {
     max-width: 750px;
@@ -184,6 +164,36 @@
 
 
 
+.search-click {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    transition: all 0.5s;
+  }
+  .search-click:focus {
+    width: 300px;
+    padding-left: 50px;
+  }
+  .search-click {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+  }
+  .search-click input {
+    background: transparent;
+    border: 1px solid red !important;
+    outline: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 0%;
+    padding: 10px;
+  }
 
 
 
@@ -213,9 +223,9 @@
 .pricing-card{
     box-shadow: 0px 6px 12px 0px #0000000F;
     border-radius: 10px;
-    max-width: 540px;
-
+    
 }
+
 .gradient-heading{    
     background-image: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%) !important;
     padding: 23px 41px 23px;
@@ -271,10 +281,12 @@
     
     border-radius: 8px;
 }
-
-.h-200{
-    height: 200px;
+.slider-box{
+    padding: 47px 50px 47px 25px;
+    border: 1px solid red;
 }
+
+
 
 .duration-300 {
     transition: all 300ms linear !important;
@@ -346,12 +358,9 @@ background-size: cover;
 }
 
 .mycard:hover {
-    transform: translateY(-43px);
+    transform: translateY(-23px);
     background-image: linear-gradient(var(--orange), var(--orangered));
-    box-shadow: none;
-    /* background: linear-gradient(0deg, #FFFFFF, #FFFFFF), */
-    /* linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%); */
-
+    box-shadow: none;    
 }
 
 .mycard:hover .card-icon {
@@ -370,6 +379,10 @@ background-size: cover;
 .mycard:hover svg path {
     /* fill: orangered; */
     fill: url(#paint0_linear_34717_12224);
+}
+.sun{
+    right: 5%;
+    top: 20%;
 }
 
 .Ellipse15 {
@@ -439,7 +452,7 @@ background-size: cover;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: black;
+        background-color: var(--orange);
         width: 100%;
         height: 100vh;
         gap: 32px;
@@ -483,7 +496,7 @@ background-size: cover;
         height: 3px;
         margin: 6px auto;
         transition: all 0.3s ease-in-out;
-        background-color: var(--white);
+        background-color: var(--black);
     }
 }
 
@@ -491,17 +504,80 @@ background-size: cover;
 
 @media (max-width: 575px) {}
 
-@media (min-width: 575px) {}
+@media (min-width: 575px) {
+    .pt-sm-60{
+        padding-top: 60px !important;
+    }
+    .pb-sm-60{
+        padding-bottom: 60px !important;
+    }
+    .pt-sm-119 {
+        padding-top: 119px !important;
+    }
+    .gap-sm-36{
+        gap: 36px !important;
+    }
+    .mycard:hover {
+        transform: translateY(-33px);
+        background-image: linear-gradient(var(--orange), var(--orangered));
+        box-shadow: none;    
+    }
+}
 
 @media (min-width: 768px) {}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .max-w-lg-525{
+        max-width: 525px;
+    }
+    .max-w-lg-269{
+        max-width: 269px;
+    }
+    .pt-lg-147{
+        padding-top: 147px !important;
+    }
+    .pb-lg-147{
+        padding-bottom: 147px !important;
+    }
+    .pt-lg-94{
+        padding-top: 94px !important;
+    }
+    .pb-lg-148{
+        padding-bottom: 148px !important;
+    }
+    .max-w-lg-540{
+        max-width: 540px;
+    }
+    .pt-lg-142{
+        padding-top: 142px !important;
+    }
+    .pt-lg-108{
+        padding-top: 108px !important;
+    }
+    .pb-lg-95{
+        padding-bottom: 95px !important;
+    }
+    .pt-lg-121{
+        padding-top: 121px !important;
+    }
+    .pb-lg-109{
+        padding-bottom: 109px !important;
+    }
+    .max-w-lg-443 {
+        max-width: 443px;
+    }
+    .h-lg-200{
+        height: 200px !important;
+    }
+    .mycard:hover {
+        transform: translateY(-43px);
+        background-image: linear-gradient(var(--orange), var(--orangered));
+        box-shadow: none;    
+    }
+}
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 1200px) {}
-
-@media (min-width:1200px) {}
 
 
 
@@ -511,33 +587,5 @@ background-size: cover;
 
 
 
-.search-click {
-    border: 1px solid #ccc;
-    outline: none;
-    background-size: 22px;
-    background-position: 13px;
-    border-radius: 10px;
-    width: 50px;
-    height: 50px;
-    padding: 25px;
-    transition: all 0.5s;
-  }
-  .search-click:focus {
-    width: 300px;
-    padding-left: 50px;
-  }
-  .search-click {
-    position: relative;
-    overflow: hidden;
-    height: 50px;
-  }
-  .search-click input {
-    background: transparent;
-    border: 1px solid red !important;
-    outline: none;
-    position: absolute;
-    width: 300px;
-    height: 50px;
-    left: 0%;
-    padding: 10px;
-  }
+
+

@@ -20,40 +20,42 @@ $('.Modules-slider').slick({
   prevArrow: ".pre-btn",
   nextArrow: ".next-btn",
   infinite: true,
-  dots: true,
+  dots: false,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 768,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
+        arrows:false,
         autoplay: true,
         cssEase: 'linear'
 
       }
     },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        cssEase: 'linear'
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        cssEase: 'linear'
-      }
-    }
+
+    // {
+    //   breakpoint: 600,
+    //   settings: {
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     cssEase: 'linear'
+    //   }
+    // },
+    // {
+    //   breakpoint: 480,
+    //   settings: {
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     cssEase: 'linear'
+    //   }
+    // }
   ]
 });
 

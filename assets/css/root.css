@@ -7,10 +7,8 @@
     --fs-3xl: 20px;
     --fs-4xl: 32px;
     --fs-5xl: 38px;
-    --fs-6xl: 48px;
+    --fs-6xl: 42px;
     
-
-
     --line-height-16: 16px;
     --line-height-18: 18px;
     --line-height-21: 21px;
@@ -22,21 +20,18 @@
     --line-height-36: 36px;
     --line-height-46: 46px;
     --line-height-56: 56px;
-    --line-height-71: 65px;
+    --line-height-71: 60px;
 
     --white: white;
     --orangered: #F14F09;
     --orange: #FD9B2B;
     --black: black;
- 
-
+    --shadow: #0000000A;
+    --loder-bg: #FFF1EA;
 }
-
 .line-height-16{
-    line-height: var(--line-height-16);
-    
+    line-height: var(--line-height-16);   
 }
-
 .line-height-18{
     line-height: var(--line-height-18);
 }
@@ -70,9 +65,7 @@
 .line-height-71{
     line-height: var(--line-height-71);
 }
-
-
-
+/* ----------font-size */
 .fs-sm{
     font-size: var(--fs-sm);
 }
@@ -100,7 +93,6 @@
 .fs-6xl{
     font-size: var(--fs-6xl);
 }
-
 @media (min-width:575px) {
     :root {
         --fs-sm: 12px;    
@@ -111,9 +103,7 @@
         --fs-3xl: 24px;
         --fs-4xl: 40px;
         --fs-5xl: 48px;
-        --fs-6xl: 61px;
-        
-    
+        --fs-6xl: 61px;            
     
         --line-height-16: 16px;
         --line-height-18: 18px;
@@ -126,8 +116,7 @@
         --line-height-36: 36px;
         --line-height-46: 46px;
         --line-height-56: 56px;
-        --line-height-71: 71px;
-                          
+        --line-height-71: 71px;                          
     }   
 }
 @media (min-width:992px) {
@@ -142,8 +131,6 @@
         --fs-5xl: 48px;
         --fs-6xl: 61px;
         
-    
-    
         --line-height-16: 16px;
         --line-height-18: 18px;
         --line-height-21: 21px;
@@ -156,7 +143,5 @@
         --line-height-46: 46px;
         --line-height-56: 56px;
         --line-height-71: 71px;
-
-    }
-    
+    }   
 }

@@ -13,8 +13,6 @@ function mobileMenu() {
   document.body.classList.toggle("overflow-hidden");
   navMenu.classList.toggle("nav-active");
 }
-
-
 // --------slider
 $('.Modules-slider').slick({
   prevArrow: ".pre-btn",
@@ -34,43 +32,18 @@ $('.Modules-slider').slick({
         arrows:false,
         autoplay: true,
         cssEase: 'linear'
-
       }
-    },
-
-    // {
-    //   breakpoint: 600,
-    //   settings: {
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     cssEase: 'linear'
-    //   }
-    // },
-    // {
-    //   breakpoint: 480,
-    //   settings: {
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     cssEase: 'linear'
-    //   }
-    // }
+    },  
   ]
 });
-
+// -----------------get year
 const d = new Date();
 let year = d.getFullYear();
 document.getElementById("year").innerHTML = year
 
-
-
-// Get the button
+// -----------------top button
 let mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
@@ -78,17 +51,11 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-
-
-
-// ------------------------
+// ------------------------pre-loder
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("load", function () {
     setTimeout(function () {

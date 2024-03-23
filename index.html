@@ -19,7 +19,7 @@
 
 <body>
     <header class="position-relative min-vh-100 bg-hero d -none">
-        <div class="position-absolute sun">
+        <div class="position-absolute sun ">
             <img src="./assets/images/svg/sun.svg" alt="" class="">
         </div>
         
@@ -61,7 +61,7 @@
                 </div>
             </nav>
             <div class="d-flex justify-content-center pt-sm-119 pt-60 flex-column align-items-center " id="home">
-                <h1 class="m-0 font-Work-sans  max-w-750 text-center line-height-71 fs-6xl fw-bolder pb-59 ">Maitre D –
+                <h1 class="m-0 font-Work-sans  max-w-750 text-center line-height-71 fs-6xl fw-bolder pb-59 z-1">Maitre D –
                     Store <span class="vector1 position-relative">Management</span> for Barbers</h1>
                 <button class="font-Work-sans line-height-23 fw-bold fs-xl btn-1 text-white ">Submit</button>
             </div>
@@ -323,10 +323,12 @@
             <div class="row pt-lg-142 pt-sm-60 pt-4 align-items-center pb-lg-148 pb-sm-60 pb-5">
                 <div class="col-lg-6 col-12">
                     <div class="pricing-card w-100  overflow-hidden max-w-lg-540">
-                        <div class="gradient-heading d-flex gap-23 align-items-center ">
+                        <div class="gradient-heading d-flex gap-sm-23 gap-3 align-items-center  flex-wrap">
                             <h5 class="font-Work-sans line-height-30  text-white fw-semibold fs-xl m-0">Monthly Pricing</h5>
-                            
-
+                            <label class="switch position-relative d-inline-block">
+                                <input type="checkbox" checked>
+                                <span class="slider round position-absolute bg-white"></span>
+                            </label>                              
                             <h5 class="font-Work-sans fw-normal line-height-30 fs-xl text-white m-0">Yearly Pricing</h5>
                         </div>
                         <div class="card-content d-flex flex-column gap-sm-36 gap-4">

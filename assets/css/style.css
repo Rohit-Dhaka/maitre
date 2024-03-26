@@ -457,7 +457,7 @@ input:checked+.slider:before {
     color: var(--orangered);
 }
 
-@media(max-width: 992px) {
+@media(max-width:991.99px) {
     .menulist {
         position: fixed;
         right: -100%;
@@ -514,7 +514,7 @@ input:checked+.slider:before {
 }
 
 /* ----------------------------------Navbar */
-@media (max-width:575px) {
+@media (max-width:574.98px) {
     #myBtn {
      
         bottom: 15px;

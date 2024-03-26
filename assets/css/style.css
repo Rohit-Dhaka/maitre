@@ -8,7 +8,7 @@
     margin: 0;
     list-style: none !important;
     text-decoration: none !important;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 /* ----------------------------------------font-family */
@@ -162,12 +162,25 @@
 /* ----------------------------------------width */
 /* --------------------------------------card */
 .mycard {
-    box-shadow: 0px 4px 66px 0px var(--shadow);    
+    box-shadow: 0px 4px 66px 0px var(--shadow);
     height: 293px;
     border-radius: 8px;
     padding: 40px 18px 25px;
 }
-
+.mycard::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 900ms ease;
+    background: linear-gradient(var(--orange), var(--orangered));
+    opacity: 0;
+}
+.mycard:hover::after {
+    opacity: 1;
+}
 .card-icon {
     width: 87px;
     height: 87px;
@@ -175,7 +188,6 @@
 }
 
 .mycard:hover {    
-    background-image: linear-gradient(var(--orange), var(--orangered));
     box-shadow: none;
     transition: all 400ms linear !important;
 }
@@ -200,7 +212,7 @@
 
 /* --------------------------------------card */
 /* ---------------------------------------toggle-btn */
-.switch {        
+.switch {
     width: 77px;
     height: 34px;
 }
@@ -215,7 +227,7 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;    
+    bottom: 0;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -249,6 +261,7 @@ input:checked+.slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
 /* ---------------------------------------toggle-btn */
 
 
@@ -259,9 +272,11 @@ input:checked+.slider:before {
     transition: all 300ms linear;
     background-image: linear-gradient(96.64deg, var(--orange) 13.58%, var(--orangered) 86.99%);
 }
-.btn-1:hover{
+
+.btn-1:hover {
     box-shadow: 0px 0px 40px 0px var(--orange);
 }
+
 /* ----------------------------card */
 .pricing-card {
     box-shadow: 0px 6px 12px 0px var(--shadow);
@@ -282,23 +297,27 @@ input:checked+.slider:before {
     height: 55px;
     padding: 15px 10px 11px;
 }
+
 /* ----------------------------card */
 .h-56 {
     height: 56px;
 }
+
 .cursor-pointer {
     cursor: pointer;
 }
 
 .slider-box-1 {
-    padding: 20px ;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 66px 0px var(--shadow);
     margin: 20px 0;
 }
+
 .duration-300 {
     transition: all 300ms linear !important;
 }
+
 .gradient-box {
     background-image: linear-gradient(90deg, var(--orange), var(--orangered));
     border-radius: 10px;
@@ -320,6 +339,7 @@ input:checked+.slider:before {
 .resize-none {
     resize: none;
 }
+
 .line {
     height: 1px;
     display: block;
@@ -370,10 +390,12 @@ input:checked+.slider:before {
     bottom: 0;
     right: 0;
 }
+
 .Ellipse446 {
     right: 6px;
     top: -39px;
 }
+
 .Ellipse446 {
     right: 6px;
     top: -39px;
@@ -389,7 +411,7 @@ input:checked+.slider:before {
     z-index: 99;
     border: none;
     outline: none;
-    background-image: linear-gradient(96.64deg, var(--orange) 13.58%, var(--orangered) 86.99%);    
+    background-image: linear-gradient(96.64deg, var(--orange) 13.58%, var(--orangered) 86.99%);
     padding: 15px;
     border-radius: 4px;
 }
@@ -401,7 +423,7 @@ input:checked+.slider:before {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;        
+    height: 100%;
     background-color: var(--loder-bg);
     display: flex;
     justify-content: center;
@@ -516,21 +538,23 @@ input:checked+.slider:before {
 /* ----------------------------------Navbar */
 @media (max-width:574.98px) {
     #myBtn {
-     
+
         bottom: 15px;
         right: 15px;
-        
+
     }
-    
+
 }
 
 @media (min-width: 575px) {
     .pt-sm-60 {
         padding-top: 60px !important;
     }
+
     .pb-sm-59 {
         padding-bottom: 59px !important;
     }
+
     .pb-sm-60 {
         padding-bottom: 60px !important;
     }
@@ -542,10 +566,11 @@ input:checked+.slider:before {
     .gap-sm-36 {
         gap: 36px !important;
     }
-    
+
     .gap-sm-23 {
         gap: 23px !important;
     }
+
     .vector1::after {
         content: url(../images/svg/Vector1.svg);
         position: absolute;
@@ -557,7 +582,7 @@ input:checked+.slider:before {
 
 @media (min-width: 768px) {
     .slider-box-1 {
-        padding: 25px;                
+        padding: 25px;
         margin: 30px 40px 30px;
     }
 }
@@ -633,8 +658,9 @@ input:checked+.slider:before {
         padding: 23px 36px 12px 12px;
         margin: 40px 50px 40px;
     }
+
     .mycard:hover {
-        transform: translateY(-43px) !important;                        
+        transform: translateY(-43px) !important;
     }
 }
 

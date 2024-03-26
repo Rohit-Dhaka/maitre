@@ -162,8 +162,7 @@
 /* ----------------------------------------width */
 /* --------------------------------------card */
 .mycard {
-    box-shadow: 0px 4px 66px 0px var(--shadow);
-    max-width: 293px;
+    box-shadow: 0px 4px 66px 0px var(--shadow);    
     height: 293px;
     border-radius: 8px;
     padding: 40px 18px 25px;
@@ -175,14 +174,15 @@
     background-image: linear-gradient(var(--orange), var(--orangered));
 }
 
-.mycard:hover {
-    transform: translateY(-23px);
+.mycard:hover {    
     background-image: linear-gradient(var(--orange), var(--orangered));
     box-shadow: none;
+    transition: all 400ms linear !important;
 }
 
 .mycard:hover .card-icon {
     background-image: linear-gradient(var(--white), var(--white));
+    transition: all 400ms linear;
 }
 
 .mycard:hover h5 {
@@ -542,13 +542,7 @@ input:checked+.slider:before {
     .gap-sm-36 {
         gap: 36px !important;
     }
-
-    .mycard:hover {
-        transform: translateY(-33px);
-        background-image: linear-gradient(var(--orange), var(--orangered));
-        box-shadow: none;
-    }
-
+    
     .gap-sm-23 {
         gap: 23px !important;
     }
@@ -638,6 +632,9 @@ input:checked+.slider:before {
     .slider-box-1 {
         padding: 23px 36px 12px 12px;
         margin: 40px 50px 40px;
+    }
+    .mycard:hover {
+        transform: translateY(-43px) !important;                        
     }
 }
 
